@@ -282,7 +282,7 @@ Complete the exercise in the space below:
 const createUsername=(firstName, lastName) => {
   
   let fN3 = firstName.slice (0,3);
-  let lN3 = lastName.slice (-3);
+  let lN3 = lastName.slice (0,3);
   let count = (firstName.length)+(lastName.length);
 
 {
@@ -303,12 +303,12 @@ This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
 */
 
-/*const numArgs=(){
-
+const numArgs=(a, b, c, d) => {
+  {
+    return (numArgs.length);
+  }
 
 
 }
 
-
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
-*/
